@@ -1,5 +1,4 @@
 import os
-from timeit import default_timer as timer
 
 
 text = open("lista-bordados.txt","w")
@@ -36,7 +35,5 @@ def z():
     #show(r)
     #print("-"*20)
 
-start=timer()
 z()
-end=timer()
-print("start:",start,"--","end:",end)
+
